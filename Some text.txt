@@ -1,3 +1,11 @@
 Hello world!
 
-Some new text was added
+
+git status
+git log
+git remote add origin 'gtiHub repository URL' - привязать локальный репозиторий к облачному
+git add '. or filename' - добавить в индекс все либо выбранный файл
+git commit - закоммитить файлы которые в индексе
+git checkout 'commit hash' - вернуться к выбранному коммиту
+git push origin master - запушить на облако: репозиторий - origin, ветка - master 
+git pull origin master - вытянуть с облака: репозиторий - origin, ветка - master
